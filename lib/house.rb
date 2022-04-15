@@ -29,5 +29,13 @@ class House
     end
 
     def recite
+        result = ""
+        for number in 1..12 do
+            result += line(number)
+            if number < 12
+                result += "\n"
+            end
+        end
+        return result
     end
 end
