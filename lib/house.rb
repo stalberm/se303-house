@@ -29,13 +29,14 @@ class House
     end
 
     def recite
-        result = ""
-        for number in 1..12 do
-            result += line(number)
-            if number < 12
-                result += "\n"
-            end
-        end
-        return result
+        1.upto(12).map{ |number| line(number)}.join("\n")
     end
+        # result = ""
+        # for number in 1..12 do
+        #     result += line(number)
+        #     if number < 12
+        #         result += "\n"
+        #     end
+        # end
+        # return result
 end
