@@ -35,8 +35,9 @@ class House
     end
     
     def difference2
+        "the farmer sowing his corn that kept "
     end
-    
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
