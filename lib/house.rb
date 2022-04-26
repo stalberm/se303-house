@@ -34,6 +34,9 @@ class House
         end
     end
     
+    def difference2
+    end
+    
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
