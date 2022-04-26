@@ -29,7 +29,11 @@ class House
     end
 
     def difference(number = :FIXME)
-        "the horse and the hound and the horn that belonged to"
+        if number == 12
+            "the horse and the hound and the horn that belonged to"
+        else
+            ""
+        end
     end
     
     def recite
