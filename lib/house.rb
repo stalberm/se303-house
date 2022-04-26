@@ -28,7 +28,7 @@ class House
         end
     end
 
-    def difference
+    def difference(number = :FIXME)
         "the horse and the hound and the horn that belonged to"
     end
     
