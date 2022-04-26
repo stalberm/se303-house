@@ -40,7 +40,7 @@ class House
         end
     end
 
-    def difference3
+    def difference3(number = :FIXME)
         "the rooster that crowed in the morn that woke "
     end
 
