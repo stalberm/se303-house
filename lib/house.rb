@@ -40,8 +40,12 @@ class House
         end
     end
 
-    def difference3(number = :FIXME)
-        "the rooster that crowed in the morn that woke "
+    def difference3(number)
+        if number >= 10
+            "the rooster that crowed in the morn that woke "
+        else
+            ""
+        end
     end
 
     def recite
