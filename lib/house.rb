@@ -34,7 +34,7 @@ class House
         end
     end
     
-    def difference2(number = :FIXME)
+    def difference2(number)
         if number >= 11
             "the farmer sowing his corn that kept "
         else
