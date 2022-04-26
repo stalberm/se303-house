@@ -34,7 +34,7 @@ class House
         end
     end
     
-    def difference2
+    def difference2(number = :FIXME)
         "the farmer sowing his corn that kept "
     end
 
