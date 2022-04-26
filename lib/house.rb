@@ -41,8 +41,9 @@ class House
     end
 
     def difference3
+        "the rooster that crowed in the morn that woke "
     end
-    
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
