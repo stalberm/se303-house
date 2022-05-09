@@ -47,6 +47,7 @@ class House
     end
 
     def difference4
+        "the priest all shaven and shorn that married "
     end
 
     def recite
