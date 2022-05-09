@@ -70,6 +70,13 @@ class House
         end
     end
 
+    def difference8(number)
+        if number >= 5
+            "the dog that worried "
+        else
+            ""
+        end
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
