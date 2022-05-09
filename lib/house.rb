@@ -76,6 +76,14 @@ class House
         end
     end
 
+    def difference9(number)
+        if number >= 4
+            "the cat that killed "
+        else
+            ""
+        end
+    end
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
