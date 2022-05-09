@@ -1,11 +1,6 @@
 class House
     def line(number)
-        case number
-        when 1
-            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}#{difference11(number)}the house that Jack built.\n"
-        else
-            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}#{difference11(number)}the house that Jack built.\n"
-        end
+        "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}#{difference11(number)}the house that Jack built.\n"
     end
 
     def difference(number)
