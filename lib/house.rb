@@ -14,7 +14,7 @@ class House
         when 6
             "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         else
-            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}the maiden all forlorn that milked the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
+            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6}the cow with the crumpled horn that tossed the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
         end
     end
 
