@@ -52,6 +52,10 @@ class House
         end
     end
 
+    def difference5
+        "the man all tattered and torn that kissed "
+    end
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
