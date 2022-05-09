@@ -58,6 +58,10 @@ class House
         end
     end
 
+    def difference6
+        "the maiden all forlorn that milked "
+    end
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
