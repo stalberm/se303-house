@@ -4,7 +4,7 @@ class House
         when 1
             "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}the house that Jack built.\n"
         else
-            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}the malt that lay in the house that Jack built.\n"
+            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}#{difference11(number)}the house that Jack built.\n"
         end
     end
 
@@ -95,7 +95,7 @@ class House
             ""
         end
     end
-    
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
