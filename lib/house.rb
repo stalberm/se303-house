@@ -64,6 +64,14 @@ class House
         end
     end
 
+    def difference7(number)
+        if number >= 6
+            "the cow with the crumpled horn that tossed "
+        else
+            ""
+        end
+    end
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
