@@ -88,6 +88,14 @@ class House
         end
     end
 
+    def difference11(number)
+        if number >= 2
+            "the malt that lay in "
+        else
+            ""
+        end
+    end
+    
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
