@@ -6,7 +6,7 @@ class House
         when 2
             "This is the malt that lay in the house that Jack built.\n"
         when 3
-            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}the rat that ate the malt that lay in the house that Jack built.\n"
+            "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}the rat that ate the malt that lay in the house that Jack built.\n"
         else
             "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}the rat that ate the malt that lay in the house that Jack built.\n"
         end
