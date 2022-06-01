@@ -3,6 +3,9 @@ class House
         "This is #{difference(number)}#{difference2(number)}#{difference3(number)}#{difference4(number)}#{difference5(number)}#{difference6(number)}#{difference7(number)}#{difference8(number)}#{difference9(number)}#{difference10(number)}#{difference11(number)}the house that Jack built.\n"
     end
 
+    def lyrics
+    end
+
     def difference(number)
         if number == 12
             "the horse and the hound and the horn that belonged to "
