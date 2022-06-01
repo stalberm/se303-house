@@ -9,7 +9,8 @@ class House
          "the cat that killed ", 
          "the dog that worried ", 
          "the cow with the crumpled horn that tossed ", 
-         "the maiden all forlorn that milked ", difference5(number), difference4(number), difference3(number), difference2(number), difference(number)]
+         "the maiden all forlorn that milked ", 
+         "the man all tattered and torn that kissed ", difference4(number), difference3(number), difference2(number), difference(number)]
     end
 
     def difference(number)
