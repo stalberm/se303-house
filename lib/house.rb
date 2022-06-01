@@ -11,7 +11,8 @@ class House
          "the cow with the crumpled horn that tossed ", 
          "the maiden all forlorn that milked ", 
          "the man all tattered and torn that kissed ", 
-         "the priest all shaven and shorn that married ", difference3(number), difference2(number), difference(number)]
+         "the priest all shaven and shorn that married ", 
+         "the rooster that crowed in the morn that woke ", difference2(number), difference(number)]
     end
 
     def difference(number)
