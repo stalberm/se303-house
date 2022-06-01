@@ -18,6 +18,7 @@ class House
     end
 
     def prefix
+        "This is "
     end
 
     def recite
