@@ -12,7 +12,8 @@ class House
          "the maiden all forlorn that milked ", 
          "the man all tattered and torn that kissed ", 
          "the priest all shaven and shorn that married ", 
-         "the rooster that crowed in the morn that woke ", difference2(number), difference(number)]
+         "the rooster that crowed in the morn that woke ", 
+         "the farmer sowing his corn that kept ", difference(number)]
     end
 
     def difference(number)
