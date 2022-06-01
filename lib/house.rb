@@ -1,6 +1,6 @@
 class House
     def line(number)
-        "This is #{(number-1).downto(0).map {|index| lyrics(number)[index]}.join("")}\n"
+        "#{prefix}#{(number-1).downto(0).map {|index| lyrics(number)[index]}.join("")}\n"
     end
 
     def lyrics(number)
