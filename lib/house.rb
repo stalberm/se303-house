@@ -1,9 +1,9 @@
 class House
     def line(number)
-        "#{prefix}#{(number-1).downto(0).map {|index| lyrics(number)[index]}.join("")}\n"
+        "#{prefix}#{(number-1).downto(0).map {|index| lyrics[index]}.join("")}\n"
     end
 
-    def lyrics(number)
+    def lyrics
         ["the house that Jack built.",
          "the malt that lay in ",
          "the rat that ate ", 
