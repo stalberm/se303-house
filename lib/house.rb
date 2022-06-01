@@ -17,6 +17,9 @@ class House
          "the farmer sowing his corn that kept ", "the horse and the hound and the horn that belonged to "]
     end
 
+    def prefix
+    end
+
     def recite
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
