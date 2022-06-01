@@ -1,10 +1,11 @@
 class House
     def line(number)
-        "This is #{(number-2).downto(0).map {|index| lyrics(number)[index]}.join("")}the house that Jack built.\n"
+        "This is #{(number-1).downto(0).map {|index| lyrics(number)[index]}.join("")}\n"
     end
 
     def lyrics(number)
-        ["the malt that lay in ",
+        ["the house that Jack built.",
+         "the malt that lay in ",
          "the rat that ate ", 
          "the cat that killed ", 
          "the dog that worried ", 
