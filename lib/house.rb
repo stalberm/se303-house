@@ -4,7 +4,8 @@ class House
     end
 
     def lyrics(number)
-        ["the malt that lay in ", difference10(number), difference9(number), difference8(number), difference7(number), difference6(number), difference5(number), difference4(number), difference3(number), difference2(number), difference(number)]
+        ["the malt that lay in ",
+         "the rat that ate ", difference9(number), difference8(number), difference7(number), difference6(number), difference5(number), difference4(number), difference3(number), difference2(number), difference(number)]
     end
 
     def difference(number)
