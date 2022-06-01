@@ -1,6 +1,6 @@
 class House
     def line(number)
-        "This is #{difference(number)}#{lyrics(number)[9]}#{lyrics(number)[8]}#{lyrics(number)[7]}#{lyrics(number)[6]}#{lyrics(number)[5]}#{lyrics(number)[4]}#{lyrics(number)[3]}#{lyrics(number)[2]}#{lyrics(number)[1]}#{lyrics(number)[0]}the house that Jack built.\n"
+        "This is #{lyrics(number)[10]}#{lyrics(number)[9]}#{lyrics(number)[8]}#{lyrics(number)[7]}#{lyrics(number)[6]}#{lyrics(number)[5]}#{lyrics(number)[4]}#{lyrics(number)[3]}#{lyrics(number)[2]}#{lyrics(number)[1]}#{lyrics(number)[0]}the house that Jack built.\n"
     end
 
     def lyrics(number)
