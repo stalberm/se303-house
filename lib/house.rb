@@ -4,7 +4,7 @@ class House
     end
 
     def lyrics(number)
-        [difference11(number)]
+        [difference11(number), difference10(number)]
     end
 
     def difference(number)
