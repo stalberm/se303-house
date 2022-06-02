@@ -199,7 +199,6 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_random_line_4
-    skip
     expected = "This is the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
     assert_equal expected, House.new(RandomVerse).line(4)
   end
