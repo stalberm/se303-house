@@ -244,7 +244,6 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_all_the_random_lines
-    skip
     expected = <<-TEXT
 This is the house that Jack built.
 
