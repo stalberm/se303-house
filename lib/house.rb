@@ -1,4 +1,11 @@
 class House
+
+    attr_reader :verse_template
+    
+    def initialize(verse_template = HouseVerse)
+        @verse_template = verse_template
+    end
+
     def line(number)
         HouseVerse.new.line(number)
     end
