@@ -44,3 +44,6 @@ class PirateVerse < HouseVerse
         "Thar be "
     end
 end
+
+class RandomVerse < HouseVerse
+end
