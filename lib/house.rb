@@ -17,12 +17,11 @@ end
 
 class HouseVerse
     def line(number)
-        "#{prefix}#{(number-1).downto(0).map {|index| lyrics[index]}.join("")}\n"
+        "#{prefix}#{(number-2).downto(0).map {|index| lyrics[index]}.join("")}the house that Jack built.\n"
     end
 
     def lyrics
-        ["the house that Jack built.",
-         "the malt that lay in ",
+        ["the malt that lay in ",
          "the rat that ate ", 
          "the cat that killed ", 
          "the dog that worried ", 
