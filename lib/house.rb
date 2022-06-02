@@ -45,6 +45,10 @@ class PirateVerse < HouseVerse
     end
 end
 
+class RandomPirate < PirateVerse
+
+end
+
 class RandomVerse < HouseVerse
     def lyrics
         super.shuffle(random: Random.new(31415))
