@@ -115,7 +115,6 @@ This is the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_pirate_line_5
-    skip
     expected = "Thar be the dog that worried the cat that killed the rat that ate the malt that lay in the house that Jack built.\n"
     assert_equal expected, House.new(PirateVerse).line(5)
   end
