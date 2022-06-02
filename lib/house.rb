@@ -52,5 +52,7 @@ class RandomVerse < HouseVerse
 end
 
 class RandomPirate < PirateVerse
-
+    def lyrics
+        RandomVerse.new.lyrics
+    end
 end
