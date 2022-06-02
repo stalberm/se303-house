@@ -25,3 +25,7 @@ class House
         1.upto(12).map{ |number| line(number)}.join("\n")
     end
 end
+
+class HouseVerse
+
+end
