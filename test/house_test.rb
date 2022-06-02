@@ -271,4 +271,11 @@ This is the priest all shaven and shorn that married the dog that worried the ma
     TEXT
     assert_equal expected, House.new(RandomVerse).recite
   end
+
+  def test_random_line_1
+    skip
+    expected = "Thar be the house that Jack built.\n"
+    assert_equal expected, House.new(RandomPirate).line(1)
+  end
+
 end
