@@ -298,7 +298,6 @@ This is the priest all shaven and shorn that married the dog that worried the ma
   end
 
   def test_random_pirate_line_6
-    skip
     expected = "Thar be the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
     assert_equal expected, House.new(RandomPirate).line(6)
   end
