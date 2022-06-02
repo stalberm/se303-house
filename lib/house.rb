@@ -1,6 +1,6 @@
 class House
     def line(number)
-        "#{prefix}#{(number-1).downto(0).map {|index| lyrics[index]}.join("")}\n"
+        HouseVerse.new.line(number)
     end
 
     def lyrics
@@ -14,7 +14,8 @@ class House
          "the man all tattered and torn that kissed ", 
          "the priest all shaven and shorn that married ", 
          "the rooster that crowed in the morn that woke ", 
-         "the farmer sowing his corn that kept ", "the horse and the hound and the horn that belonged to "]
+         "the farmer sowing his corn that kept ",
+         "the horse and the hound and the horn that belonged to "]
     end
 
     def prefix
@@ -42,7 +43,8 @@ class HouseVerse
          "the man all tattered and torn that kissed ", 
          "the priest all shaven and shorn that married ", 
          "the rooster that crowed in the morn that woke ", 
-         "the farmer sowing his corn that kept ", "the horse and the hound and the horn that belonged to "]
+         "the farmer sowing his corn that kept ",
+         "the horse and the hound and the horn that belonged to "]
     end
 
     def prefix
