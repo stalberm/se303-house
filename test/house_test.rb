@@ -184,7 +184,104 @@ Thar be the horse and the hound and the horn that belonged to the farmer sowing 
   end
 
   def test_random_line_1
+    skip
     expected = "This is the house that Jack built.\n"
     assert_equal expected, House.new(RandomVerse).line(1)
+  end
+
+  def test_random_line_2
+    skip
+    expected = "This is the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(2)
+  end
+
+  def test_random_line_3
+    skip
+    expected = "This is the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(3)
+  end
+
+  def test_random_line_4
+    skip
+    expected = "This is the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(4)
+  end
+
+  def test_random_line_5
+    skip
+    expected = "This is the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(5)
+  end
+
+  def test_random_line_6
+    skip
+    expected = "This is the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(6)
+  end
+
+  def test_random_line_7
+    skip
+    expected = "This is the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(7)
+  end
+
+  def test_random_line_8
+    skip
+    expected = "This is the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(8)
+  end
+
+  def test_random_line_9
+    skip
+    expected = "This is the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(9)
+  end
+
+  def test_random_line_10
+    skip
+    expected = "This is the maiden all forlorn that milked the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(10)
+  end
+
+  def test_random_line_11
+    skip
+    expected = "This is the dog that worried the maiden all forlorn that milked the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(11)
+  end
+
+  def test_random_line_12
+    skip
+    expected = "This is the priest all shaven and shorn that married the dog that worried the maiden all forlorn that milked the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.\n"
+    assert_equal expected, House.new(RandomVerse).line(12)
+  end
+
+  def test_all_the_random_lines
+    skip
+    expected = <<-TEXT
+This is the house that Jack built.
+
+This is the man all tattered and torn that kissed the house that Jack built.
+
+This is the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the maiden all forlorn that milked the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the dog that worried the maiden all forlorn that milked the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+
+This is the priest all shaven and shorn that married the dog that worried the maiden all forlorn that milked the malt that lay in the cat that killed the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that tossed the rooster that crowed in the morn that woke the rat that ate the man all tattered and torn that kissed the house that Jack built.
+    TEXT
+    assert_equal expected, House.new(RandomVerse).recite
   end
 end
