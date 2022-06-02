@@ -333,7 +333,6 @@ This is the priest all shaven and shorn that married the dog that worried the ma
   end
 
   def test_all_the_random_pirate_lines
-    skip
     expected = <<-TEXT
 Thar be the house that Jack built.
 
