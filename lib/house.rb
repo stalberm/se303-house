@@ -58,3 +58,6 @@ class HouseVerse
         "This is "
     end
 end
+
+class PirateVerse < HouseVerse
+end
