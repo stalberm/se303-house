@@ -60,4 +60,7 @@ class HouseVerse
 end
 
 class PirateVerse < HouseVerse
+    def prefix
+        "Thar be "
+    end
 end
