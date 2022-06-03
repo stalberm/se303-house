@@ -56,3 +56,7 @@ class RandomPirate < PirateVerse
         RandomVerse.new.lyrics
     end
 end
+
+class RandomNounVerb < RandomVerse
+
+end
