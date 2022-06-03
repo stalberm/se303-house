@@ -365,4 +365,100 @@ Thar be the priest all shaven and shorn that married the dog that worried the ma
     expected = "This is the house that Jack built.\n"
     assert_equal expected, House.new(RandomNounVerb).line(1)
   end
+
+  def test_random_noun_verb_line_2
+    skip
+    expected = "This is the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(2)
+  end
+
+  def test_random_noun_verb_line_3
+    skip
+    expected = "This is the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(3)
+  end
+
+  def test_random_noun_verb_line_4
+    skip
+    expected = "This is the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(4)
+  end
+
+  def test_random_noun_verb_line_5
+    skip
+    expected = "This is the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(5)
+  end
+
+  def test_random_noun_verb_line_6
+    skip
+    expected = "This is the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(6)
+  end
+
+  def test_random_noun_verb_line_7
+    skip
+    expected = "This is the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(7)
+  end
+
+  def test_random_noun_verb_line_8
+    skip
+    expected = "This is the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(8)
+  end
+
+  def test_random_noun_verb_line_9
+    skip
+    expected = "This is the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(9)
+  end
+
+  def test_random_noun_verb_line_10
+    skip
+    expected = "This is the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(10)
+  end
+
+  def test_random_noun_verb_line_11
+    skip
+    expected = "This is the dog that milked the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(11)
+  end
+
+  def test_random_noun_verb_line_12
+    skip
+    expected = "This is the priest all shaven and shorn that killed the dog that milked the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(12)
+  end
+
+  def test_all_the_random_noun_verb_lines
+    skip
+    expected = <<-TEXT
+This is the house that Jack built.
+
+This is the man all tattered and torn that married the house that Jack built.
+
+This is the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the dog that milked the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+
+This is the priest all shaven and shorn that killed the dog that milked the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.
+    TEXT
+    assert_equal expected, House.new(RandomNounVerb).recite
+  end
 end
