@@ -407,7 +407,6 @@ Thar be the priest all shaven and shorn that married the dog that worried the ma
   end
 
   def test_random_noun_verb_line_10
-    skip
     expected = "This is the maiden all forlorn that ate the malt that tossed the cat that woke the farmer sowing his corn that kept the horse and the hound and the horn that belonged to the cow with the crumpled horn that kissed the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
     assert_equal expected, House.new(RandomNounVerb).line(10)
   end
