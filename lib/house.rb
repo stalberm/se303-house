@@ -58,5 +58,32 @@ class RandomPirate < PirateVerse
 end
 
 class RandomNounVerb < RandomVerse
-
+    attr_reader :nouns, :verbs
+    def lyrics 
+        nouns = 
+        ["the malt that ",
+        "the rat that ", 
+        "the cat that ", 
+        "the dog that ", 
+        "the cow with the crumpled horn that ", 
+        "the maiden all forlorn that ", 
+        "the man all tattered and torn that ", 
+        "the priest all shaven and shorn that ", 
+        "the rooster that crowed in the morn that ", 
+        "the farmer sowing his corn that ",
+        "the horse and the hound and the horn that "].shuffle(random: Random.new(31415))
+        verbs =
+        ["lay in ",
+         "ate ", 
+         "killed ", 
+         "worried ", 
+         "tossed ", 
+         "milked ", 
+         "kissed ", 
+         "married ", 
+         "woke ", 
+         "kept ",
+         "belonged to "].shuffle(random: Random.new(12345))
+        nouns.zip(verbs).map { |a| a.join }
+    end
 end
