@@ -377,7 +377,6 @@ Thar be the priest all shaven and shorn that married the dog that worried the ma
   end
 
   def test_random_noun_verb_line_4
-    skip
     expected = "This is the rooster that crowed in the morn that worried the rat that lay in the man all tattered and torn that married the house that Jack built.\n"
     assert_equal expected, House.new(RandomNounVerb).line(4)
   end
