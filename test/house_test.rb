@@ -422,7 +422,6 @@ Thar be the priest all shaven and shorn that married the dog that worried the ma
   end
 
   def test_all_the_random_noun_verb_lines
-    skip
     expected = <<-TEXT
 This is the house that Jack built.
 
