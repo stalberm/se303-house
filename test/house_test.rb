@@ -360,4 +360,10 @@ Thar be the priest all shaven and shorn that married the dog that worried the ma
     TEXT
     assert_equal expected, House.new(RandomPirate).recite
   end
+
+  def test_random_noun_verb_line_1
+    skip
+    expected = "This is the house that Jack built.\n"
+    assert_equal expected, House.new(RandomNounVerb).line(1)
+  end
 end
